@@ -1,0 +1,24 @@
+{
+  "name": "jasmine2-tagged",
+  "version": "0.0.0",
+  "description": "Tag and filter jasmine specs",
+  "repository": "https://github.com/UziTech/jasmine2-tagged",
+  "main": "src/jasmine2-tagged.js",
+  "scripts": {
+    "test": "jasmine ./spec/*-spec.js",
+    "release": "test-tag-publish",
+    "release:patch": "test-tag-publish patch",
+    "release:minor": "test-tag-publish minor",
+    "release:major": "test-tag-publish major"
+  },
+  "keywords": [
+    "jasmine",
+    "tagged"
+  ],
+  "author": "Tony Brix",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "test-tag-publish": "^1.0.0"
+  }
+}
