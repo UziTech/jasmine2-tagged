@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/UziTech/jasmine2-tagged.png)](https://travis-ci.org/UziTech/jasmine2-tagged)
-<!-- [![Windows Build Status](https://ci.appveyor.com/api/projects/status/mw8f1emvmd543jid?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-tagged) -->
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/9vlhm6tark45cyov?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-tagged)
 
 # Jasmine 2.x Tagged
 
