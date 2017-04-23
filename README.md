@@ -3,6 +3,8 @@
 
 # Jasmine 2.x Tagged
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/UziTech/jasmine2-tagged.svg)](https://greenkeeper.io/)
+
 This is similar to [jasmine-tagged](https://github.com/atom/jasmine-tagged) except it is for Jasmine 2.x
 
 # Jasmine Tagged
