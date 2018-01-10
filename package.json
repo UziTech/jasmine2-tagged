@@ -1,6 +1,6 @@
 {
   "name": "jasmine2-tagged",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tag and filter jasmine specs",
   "repository": "https://github.com/UziTech/jasmine2-tagged",
   "main": "src/jasmine2-tagged.js",
