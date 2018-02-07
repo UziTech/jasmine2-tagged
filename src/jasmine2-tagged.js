@@ -40,7 +40,7 @@ require("./polyfills");
 
 	var originalIt = global.it;
 
-	global.it = function (description) {
+	global.it = function () {
 		var spec = originalIt.apply(this, arguments);
 		if (spec.markedPending){
 			return spec;
