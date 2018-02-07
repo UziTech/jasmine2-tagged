@@ -1,15 +1,15 @@
 [![Build Status](https://travis-ci.org/UziTech/jasmine2-tagged.png)](https://travis-ci.org/UziTech/jasmine2-tagged)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/9vlhm6tark45cyov?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-tagged)
 
-# Jasmine 2.x Tagged
+# Jasmine 2.x-3.x Tagged
 
-This is similar to [jasmine-tagged](https://github.com/atom/jasmine-tagged) except it is for Jasmine 2.x
+This is similar to [jasmine-tagged](https://github.com/atom/jasmine-tagged) except it works with Jasmine 2.x or 3.x
 
 # Jasmine Tagged
 
 Allows for tagging and filtering of specific
-[Jasmine](https://github.com/pivotal/jasmine) specs depending on the
-platform.
+[Jasmine](https://github.com/jasmine/jasmine)
+specs depending on the platform.
 
 ## Installing
 

@@ -38,14 +38,27 @@ require("./polyfills");
 		return tags;
 	};
 
-	var originalFilter = (env.specFilter ? env.specFilter : function () { return true; });
-	env.specFilter = function (spec) {
-		if (!originalFilter(spec)) { return false; }
+	var originalIt = global.it;
 
+	global.it = function (description) {
+		var spec = originalIt.apply(this, arguments);
+		if (spec.markedPending){
+			return spec;
+		}
 		var tags = findTags(spec);
-		if (includeSpecsWithoutTags && (tags.length === 0)) { return true; }
+		if (includeSpecsWithoutTags && (tags.length === 0)) {
+			return spec;
+		}
 
-		return tags.some(function (tag) { return includedTags.includes(tag); });
+		for (var i = 0; i < tags.length; i++){
+			if (includedTags.includes(tags[i])){
+				return spec;
+			}
+		}
+
+		spec.pend("Doesn't match the tags");
+
+		return spec;
 	};
 
 })(typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {});
