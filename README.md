@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/UziTech/jasmine2-tagged.png)](https://travis-ci.org/UziTech/jasmine2-tagged)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/9vlhm6tark45cyov?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-tagged)
+[![Build Status](https://travis-ci.org/UziTech/jasmine2-tagged.svg?branch=master)](https://travis-ci.org/UziTech/jasmine2-tagged)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/9vlhm6tark45cyov/branch/master?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-tagged)
 
 # Jasmine 2.x-3.x Tagged
 
