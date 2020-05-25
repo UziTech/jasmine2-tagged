@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/UziTech/jasmine2-tagged.svg?branch=master)](https://travis-ci.org/UziTech/jasmine2-tagged)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/9vlhm6tark45cyov/branch/master?svg=true)](https://ci.appveyor.com/project/UziTech/jasmine2-tagged)
+[![Actions Status](https://github.com/UziTech/jasmine2-tagged/workflows/CI/badge.svg)](https://github.com/UziTech/jasmine2-tagged/actions)
 
 # Jasmine 2.x-3.x Tagged
 
